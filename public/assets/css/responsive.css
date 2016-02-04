@@ -1,0 +1,121 @@
+/* Medium Layout: 1280px. */
+@media only screen and (min-width: 992px) and (max-width: 1280px) { 
+ .carslide9 {
+    background: none!important;
+}
+.car-loan-sl9 {
+    margin-bottom: 10px;
+    background-color: #FFF;
+    display: block;
+    overflow: hidden;
+}
+}
+/* Tablet Layout: 768px. */
+@media only screen and (min-width: 768px) and (max-width: 991px) { 
+ .carslide9 {
+    background: none!important;
+}
+.car-loan-sl9 {
+    margin-bottom: 10px;
+    background-color: #FFF;
+    display: block;
+    overflow: hidden;
+}
+ .carslide9 {
+    background: none!important;
+}
+.car-loan-sl9 {
+    margin-bottom: 10px;
+    background-color: #FFF;
+}
+}
+/* Mobile Layout: 320px. */
+@media only screen and (max-width: 767px) { 
+.main-menu {
+  float: none;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.navbar-brand > img {
+  max-width: 150px;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #0171BB;
+  color: #FFF;
+}
+.navbar-inverse .navbar-toggle {
+  border-color: #0171BB;
+}
+ .carslide9 {
+    background: none!important;
+}
+.car-loan-sl9 {
+    margin-bottom: 10px;
+    background-color: #FFF;
+    display: block;
+    overflow: hidden;
+}
+.city-single {
+    float: left;
+    width: 25%;
+}
+}
+/* Wide Mobile Layout: 480px. */
+@media only screen and (min-width: 320px) and (max-width: 480px) { 
+.loan-division p {
+    font-size: 10px;
+}
+.loan-page-banner .nav > li > a {
+    padding: 10px 0px;
+}
+ .carslide9 {
+    background: none!important;
+}
+.car-loan-sl9 {
+    margin-bottom: 10px;
+    background-color: #FFF;
+    display: block;
+    overflow: hidden;
+}
+p.s4-top-text {
+    font-size: 14px;
+}
+.city-single p, .human-single p {
+    font-size: 12px;
+    margin: 0;
+}
+.city-single {
+    float: left;
+    width: 50%;
+}
+.city-single img{
+display: none;
+}
+.city-based-single img {
+    display: none;
+}
+.property-considering {
+    float: left;
+    width: 50%;
+    margin-top: 0px;
+}
+.property-considering p {
+    font-size: 11px;
+    margin: 0px;
+}
+.car-loan-sl2-single p {
+    margin-top: 0px;
+    margin-bottom: 0;
+    font-size: 11px;
+}
+.car-loan-sl6-single p {
+    margin-top: 0px;
+    margin-bottom: 0;
+    color: #FFF;
+    font-size: 11px;
+}
+.carslide h3 {
+    font-size: 16px;
+}
+}

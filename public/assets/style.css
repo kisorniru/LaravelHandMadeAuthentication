@@ -1,0 +1,937 @@
+/* ==========================================================================
+Theme Name: BizNetworking
+Theme URI: http://coloriva.com
+Description:  BizNetworking is a very modern, responsive, bootstrap html template. It is very easy to use and customize. By using this template you can build your website very fast. 
+Version: 1.0
+Author: Coloriva
+Tags: business, corporate, css3, digital, flat, modern, bootstrap
+========================================================================== */
+/* ========= Table of Content =========== */
+	/* 
+		1. Main Elements
+		2. Main navigation
+		3. Header
+		4. Services
+		5. About Us
+		6. Our works
+		7. Signup Newsletter
+		8. Contact Form 
+		9. Footer
+	*/
+	
+	
+/*=======================
+Main elements start
+======================= */	
+body{
+	font-family: 'Open Sans', sans-serif;
+	font-size:13px;
+	color:#666666;
+}
+img {
+    max-width: 100%;
+}
+a{
+	text-decoration: none;
+	outline: 0;
+	color:#0171BB;
+	-webkit-transition: all 0.15s linear;
+	-moz-transition: all 0.15s linear;
+	-o-transition: all 0.15s linear;
+	transition: all 0.15s linear;
+}
+a:hover {
+	color:#303030;
+	text-decoration: none;
+}
+a, a:focus{
+	outline:0;
+	outline-offset:0;
+	text-decoration:none;
+}
+/* === Typography === */
+h1, h2, h3, h4, h5, h6{font-family: 'Montserrat', sans-serif; margin-bottom:15px;}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { font-weight: inherit; }
+h1 { font-size: 26px; color:#0171BB; margin-top:0;}
+h2 { font-size: 20px; color:#0171BB; margin-top:0;}
+h3 { font-size: 18px; color:#323232; margin-top:0;}
+h4 { font-size: 16px; color:#666; font-weight:normal; }
+h5 { font-size: 15px; color:#666;}
+h6 { font-size: 14px; color:#666;}
+/* === End === */
+
+hr{
+	border:1px solid #d7d8da;
+}
+/*=======================
+Main elements end
+======================= */	
+
+
+
+
+
+/*=======================
+Main navigation start
+======================= */	
+.main-menu {
+  float: right;
+  padding-top: 10px;
+}
+.navbar-inverse {
+  background-color: #F0F0F0;
+  border-color: #F0F0F0;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #1F1F1F;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.main-menu li a i {
+  color: #0171BB;
+  font-size: 25px;
+}
+.navbar-brand > img {
+  max-width: 200px;
+}
+.navbar {
+  border-radius: 0px;
+  margin-bottom: 0px;  
+}
+.navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
+  color: #0171BB;
+  transition: .3s;
+}
+/*=======================
+Main navigation end
+======================= */	
+
+
+
+
+/*=======================
+Banner section start
+======================= */	
+.banner{
+	background: url('img/banner.jpg') no-repeat center;
+    background-size: cover;
+    padding-top: 300px;
+    min-height: 700px;
+}
+
+
+.main-search {
+  text-align: center;
+  padding: 40px;
+  background-color: rgba(255, 255, 255, .3);
+  border-radius: 20px;
+  margin-top: 70px;
+  margin-bottom: 20px;
+}
+.btn-group button {
+  width: 200px;
+}
+.main-search button.search-submit {
+  background-color: #FF8F00;
+  color: #FFF;
+  border: 1px solid #ED8500;
+}
+
+
+
+.main-features{
+  padding: 50px 0;
+}
+.main-features-single {
+  text-align: center;
+}
+.main-features-single:hover{
+  cursor: pointer;
+}
+.main-features-single:hover  span{
+  background-color: rgba(255, 255, 255, .5);
+}
+.main-features-single span {
+  background-color: rgba(255, 255, 255, .3);
+  overflow: hidden;
+  height: 100px;
+  display: inline-block;
+  width: 100px;
+  border-radius: 100%;
+  padding-top: 25px;
+}
+.main-features-single p {
+  color: #FFF;
+  margin: 10px 0;
+  font-size: 15px;
+}
+
+.banner-arrow {
+  height: 22px;
+  width: 58px;
+  margin: 0 auto;
+  position: relative;
+  z-index: 2;
+  top: 20px;
+}
+/*=======================
+Banner section end
+======================= */	
+
+
+
+
+/*=======================
+Footer section start
+======================= */	
+.footer{
+padding-top: 20px;
+padding-bottom: 20px;
+}
+.footer-above {
+    border-bottom: 1px solid #F3F3F3;
+    overflow: hidden;
+    padding: 20px 0;
+    margin-bottom: 25px;
+}
+.footer-above-single {
+    background-color: #FBFBFB;
+}
+.footer2 {
+  background-color: #1973B0;
+  background: url('img/footer-bg.jpg') repeat;
+  border-top: 1px solid #5E99C0;
+}
+
+.footer-copyright p {
+  color: #000;
+  font-size: 14px;
+  margin: 0;
+}
+.footer2 .footer-copyright p {
+  color: #FFF;
+}
+
+.footer-menu{}
+.footer-menu ul{
+    padding: 0;
+}
+.footer-menu ul li{
+    list-style: none;
+    display: inline;
+}
+.footer-menu ul li a{
+padding-left: 15px;
+}
+/*=======================
+Footer section end
+======================= */	
+
+
+
+/*=======================
+Loan Page sections start
+======================= */	
+.loan-page-banner {
+  padding-top: 50px;
+}
+.loan-division {
+  text-align: center;
+}
+.loan-division p {
+  font-size: 15px;
+  color: #000;
+  font-weight: 600;
+  margin-top: 10px;
+}
+
+.loan-sec-description{
+  background: #0E77BC;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  text-align: center;
+}
+.quick-quote-info h2 {
+  color: #FFF;
+  font-size: 28px;
+}
+.quick-quote-info p {
+  color: #FFF;
+}
+.quick-quote-content p {
+  color: #000;
+  font-size: 40px;
+}
+.quick-quote-content p a {
+  color: #fff;
+  border-bottom: 3px solid #FFF;
+}
+a.get-quote {
+  background: url('img/red-btn.jpg') repeat;
+  color: #FFF;
+  padding: 8px 15px;
+  border: 1px solid #414141;
+  border-radius: 3px;
+  font-size: 18px;
+  display: inline-block;
+}
+
+
+
+
+.loan-sec-slider {
+  background: #0E77BC;
+  padding-bottom: 70px;
+  text-align: center;
+}
+.loan-sec-slider-top-text{
+background-color: #3F99D5;
+  padding-top: 15px;
+}
+.loan-sec-slider-top-text h3{
+  color: #FFF;
+}
+.nav-tabs {
+	border-bottom: 0px solid #ddd;
+    overflow: hidden;
+}
+.nav-tabs > li {
+  margin-bottom: -2px;
+}
+.nav-tabs > li.active > a, .nav-tabs > li.active > a:hover, .nav-tabs > li.active > a:focus {
+  color: #555;
+  cursor: default;
+  background-color: #fff;
+  border: 0px solid #FFF;
+  border-bottom-color: transparent;
+}
+.nav-tabs li.active a {
+  background: url('img/blue-up-arrow.png') no-repeat bottom;
+}
+
+
+
+
+.city-single {
+  float: left;
+  width: 14%;
+}
+.city-single img {
+}
+.city-single p, .human-single p {
+  color: #FFF;
+  font-size: 15px;
+  margin: 17px 0;
+  text-transform: uppercase;
+  
+}
+
+
+.main-slider-control i {
+  background-color: #000;
+  padding: 5px 13px;
+  font-size: 25px;
+  border-radius: 100%;
+  color: #FFF;
+}
+.main-slider{
+position: relative;
+}
+.item{
+}
+
+a.left.main-slider-control {
+  left: -35px;
+  }
+a.right.main-slider-control {
+  right: -35px;
+  }
+a.left.main-slider-control, a.right.main-slider-control {
+  top: 100px;
+  position: absolute;
+}
+
+
+
+.human-single {
+  float: left;
+  width: 50%;
+}
+
+.slide1, .slide2{
+  margin-top: 70px;
+}
+p.s4-top-text{}
+.city-based {
+  background: url('img/bg-3.png') no-repeat center;
+    background-size: cover;  
+}
+.slide3, .slide4 p{
+margin-top: 15px;
+color: #FFF;
+}
+p.s4-top-text{
+font-size: 20px;
+}
+
+/*=======================
+Loan Page sections end
+======================= */	
+
+
+
+
+
+		.ruler, .scale{
+			width: 720px;
+			position: relative;
+			height: 71px;
+		}
+
+		.scale{
+			background: url('img/sl-slide.png') no-repeat;
+			background-position: 0px -95px;
+		}
+
+		.sl-pointer{
+			position: absolute;
+			left: 18px;
+			top: -22px;
+			width: 111px;
+			height: 95px;
+			background: url('img/sl-slide.png') no-repeat;
+			background-position: 0px 0px;
+			z-index: 1;
+			cursor: pointer;
+		}
+    .sc{ 
+      width: 720px;
+      background: url(img/scale.png) no-repeat;
+      background-position: 0 -412px;
+    }
+.ruler.experience{
+    background: url('img/scale.png');
+    background-position: 25px -1138px;
+}	
+.ruler.undefined{
+    background: url('img/scale.png');
+    background-position: 0 -635px;
+}	
+/* 	#slider-experience .ui-slider-handle {
+    margin-left: 25px!important;
+	}
+	#totalExperience-slide .ui-slider-handle {
+    margin-left: 25px!important;
+	}
+	#age-slide .ui-slider-handle {
+    margin-left: 25px!important;
+	} */
+	.experience .ui-widget-content{ width: 400px!important;}
+	
+	
+    .ui-widget-content{ width: 600px; position: relative; margin: 0 auto;  }
+
+    .slider-amount,.ui-widget-content{
+      border:none;
+      height: 71px;
+      background: none;
+    }
+
+    .ui-slider .ui-slider-handle {
+      top: -22px;
+      width: 111px;
+      height: 95px;
+      margin-left: -50px;
+      background: url(img/sl-slide.png) no-repeat;
+      background-position: 0px 0px;
+      border: none;
+      position: absolute;
+      padding-top: 35px;
+      text-align: center;
+      color: rgb(17, 119, 86);
+      font-size: 19px;
+    }
+
+
+
+.custom-form.form-control {
+	display: initial;
+	}
+.custom-form.form-group{
+    position: relative;
+    min-height: 100px;
+    min-height: 100px;
+}
+
+		.form-input{}
+.form-extra-text{
+}
+.form-extra-text p:before{
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    background-color: #7BF8BE;
+    top: 50px;
+    left: 48%;
+    content: '';
+    transform: rotate(45deg);
+	z-index: -1;
+}
+.form-extra-text p {
+    margin: 0;
+    color: #000;
+    right: 28px;
+    top: 5px;
+    background-color: #7BF8BE;
+    padding: 5px 10px;
+    border-radius: 3px;
+    text-align: center;
+    display: inline-block;	
+}
+		.form-input p{margin-top: 0px;
+		background-color: #000;
+		display: inline-block;
+		border-radius: 5px;
+	    margin-bottom: 0;
+	}
+	.form-input p span {
+		padding: 2px 6px;
+		font-size: 16px;
+		color: #FFF;
+	}
+.form-input p input {
+    width: 200px;
+    border-radius: 0 5px 5px 0;
+	position: relative;
+}
+.form-input p input:before{
+	position: absolute;
+	width: 200px;
+	height: 100px;
+	}
+.form-input {
+ background-color: rgba(255, 255, 255, .3);
+    padding: 10px;
+    display: inline-block;
+}
+
+span.city-in {
+	background-color: #fff;
+    padding: 7px;
+    color: #000;
+    border-radius: 2px;
+    display: inline-block;
+}
+
+
+
+/*This css for slide 7*/
+.com-work-for {
+    background: url('img/sth.png') no-repeat center;
+    margin-top: 20px;
+    padding-top: 15px;
+    height: 248px;
+}
+.com-work-for p{
+    color: #FFF;
+    font-size: 18px;
+    margin-top: 20px;
+}
+.com-work-for input{width: 200px;}
+
+
+/*Slide 8*/
+.slide8{
+    background: url('img/slider-bg8.png') no-repeat right;
+    height: 300px;
+	background-size: contain;
+}
+
+.joining-date-input{
+
+}
+.joining-date-input p i {
+    color: #000;
+    font-size: 18px;
+    padding: 5px;
+}
+.slide8-tb-top {
+    text-align: center;
+    width: 240px;
+    display: inline-block;
+}
+.slide8-tb p{}
+p.table-p {
+    background-color: #03234C;
+    margin: 0;
+    padding: 8px 0;
+    border-radius: 5px 5px 0 0;
+}
+.slide8-tb td {
+    width: 100px;
+}
+
+/*Slide 10*/
+.slide10 {
+    background: url('img/slider-bg9.png') no-repeat right;
+    min-height: 389px;
+}
+.slide17-inner, .slide14-inner, .slide13-inner, .slide12-inner, .slide10-inner{padding-top: 50px;
+}
+
+.slide12{
+    background: url('img/slider-bg12.png') no-repeat right 0;
+    min-height: 389px;
+}
+.slide13{
+    background: url('img/slider-bg13.png') no-repeat center;
+    min-height: 389px;
+}
+.slide14{
+    background: url('img/slider-bg14.png') no-repeat right;
+    min-height: 281px;
+}
+a.slide-skip{
+color: #fff;
+text-decoration: underline;
+}
+p.dmy{
+    background-color: #559FD0;
+}
+p.dmy input{
+    width: 100px;
+    border-radius: 0;
+	margin-right: 10px;
+}
+p.dmy input:last-child{
+    width: 100px;
+    border-radius: 0;
+	margin-right: 0px;
+}
+
+
+/*slide 15*/
+.property-considering {
+  float: left;
+  width: 20%;
+  margin-top: 50px;
+}
+.property-considering img {
+}
+.property-considering p{
+  color: #FFF;
+  font-size: 15px;
+  margin: 17px 0;
+  text-transform: uppercase;  
+}
+
+.slide15 p{
+color: #FFF;
+padding-top: 10px;
+}
+/*************************
+Car loan slider start
+***********************/
+.carslide h3 {
+    color: #FFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    font-size: 25px;
+}
+.carslide a.get-quote {
+    margin-top: 30px;
+}
+.carslide a.get-quote {
+    margin-top: 0px;
+}
+
+.car-loan-sl1{
+    background: url('img/car-loan-img/car-sl1-bg.jpg') no-repeat center;
+    padding-top: 100px;
+    overflow: hidden;
+    min-height: 200px;
+    margin-bottom: 25px;
+}
+.car-loan-sl1-single{
+  float: left;
+  width: 50%;
+}
+.car-loan-sl1-single p {
+    background-color: #FFF;
+    display: inline-block;
+    width: 100px;
+    color: #000;
+    font-size: 16px;
+    padding: 5px;
+	position: relative;
+	border-radius: 5px;
+}
+.car-loan-sl1-single p:before{
+    position: absolute;
+    content: '';
+    background: #FFF;
+    width: 8px;
+    height: 8px;
+    transform: rotate(45deg);
+    bottom: -4px;
+    left: 45%;
+}
+.car-loan-sl1-single p input {
+    margin-right: 4px;
+}
+
+.car-loan-sl2-single {
+    margin-top: 25px;
+}
+.car-loan-sl2-single p {
+    margin-top: 12px;
+    margin-bottom: 0;
+    color: #FFF;
+    font-size: 16px;
+}
+.car-loan-sl6-single {
+    margin-top: 25px;
+}
+.car-loan-sl6-single p {
+    margin-top: 12px;
+    margin-bottom: 0;
+    color: #FFF;
+    font-size: 16px;
+}
+p.slide-random-text{
+    font-size: 25px;
+}
+.carslide9 {
+    background: url('img/car-loan-img/car-sl6-bg.png') center;
+    background-position: -85px 10px;
+}
+.car-loan-sl9 {
+/*     background-color: #F2F2F2;
+    overflow: hidden;
+    width: 55%;
+    text-align: center;
+    display: inline-flex;
+    padding: 20px;
+    border: 5px solid #424242;
+    border-radius: 5px;
+	background: url('img/car-loan-img/car-sl6-bg.png'); */
+	
+    display: inline-flex;
+    padding: 20px;
+    margin-bottom: 100px;	
+}
+.car-loan-sl9-single {
+    float: left;
+    width: 200px;
+    text-align: center;
+}
+.car-loan-sl9-single p {
+    color: #000;
+    margin: 0;
+}
+.car-loan-sl9-single label {
+    float: right;
+}
+.car-loan-sl9-single p input{
+    margin-left: 10px;
+}
+
+.policies p {
+    color: #FFF;
+    padding: 10px;
+}
+.policies p a{
+    color: #FFF;
+    font-weight: bold;
+}
+/*************************
+Car loan slider end
+***********************/
+
+
+
+/*************************
+personal loan slider start
+***********************/
+.persoanl-loan h3 {
+    color: #FFF;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+    font-size: 25px;
+}
+/*************************
+personal loan slider end
+***********************/
+
+
+
+
+
+
+/*************************
+Credit card start
+***********************/
+#credit-card-top-sec {
+    background-color: #1D7CBC;
+}
+.credit-card-top-sec-single-inner {
+    text-align: center;
+}
+.credit-card-top-sec-single-inner h3 {
+    margin: 0;
+}
+.credit-card-top-sec-single a {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: block;
+}
+.credit-card-top-sec-single a h3{
+    color: #FFF;
+}
+.credit-card-top-sec-single a:hover {
+    background-color: #2590D8;
+}
+
+
+
+
+
+
+.credit-left-sidebar-single {
+    margin-bottom: 50px;
+}
+.credit-cards-main-title h3 {
+    text-align: center;
+    margin: 0;
+    font-size: 22px;
+    font-weight: 700;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.credit-filter {
+    background-color: #F5F7F8;
+}
+.credit-filter h4 {
+    margin: 0;
+    text-align: center;
+    background-color: #043E64;
+    color: #FFF;
+    padding: 10px 0;
+    font-size: 18px;
+}
+.credit-filter ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+.credit-filter ul li {
+}
+.credit-filter ul li a i {
+    padding-right: 10px;
+    color: #043E64;
+}
+.credit-filter ul li a {
+font-size: 15px;
+    color: #000;
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+}
+.credit-filter ul li a:hover {
+    background-color: #F4FAFF;
+}
+.credit-filter ul li:nth-child(odd) {
+    background-color: #F0F0F0;
+}
+.credit-filter ul li:nth-child(even) {
+    background-color: #F5F7F8;
+}
+
+
+.credit-bank {
+    background-color: #F5F7F8;
+}
+.credit-bank h4 {
+    margin: 0;
+    text-align: center;
+    background-color: #043E64;
+    color: #FFF;
+    padding: 10px 0;
+    font-size: 18px;
+}
+.credit-bank ul {
+    padding: 0;
+    list-style: none;
+    margin: 0;
+}
+.credit-bank ul li {
+}
+.credit-bank ul li a i {
+    padding-right: 10px;
+    color: #043E64;
+}
+.credit-bank ul li a {
+font-size: 15px;
+    color: #000;
+    display: block;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+}
+.credit-bank ul li a:hover {
+    background-color: #F4FAFF;
+}
+.credit-bank ul li:nth-child(odd) {
+    background-color: #F0F0F0;
+}
+.credit-bank ul li:nth-child(even) {
+    background-color: #F5F7F8;
+}
+
+
+
+.credit-options-title{
+    background-color: #E7F4FD;
+    margin-bottom: 25px;
+    padding: 10px;
+}
+.credit-options-title h3{
+    padding: 0;
+	margin: 0;
+}
+.credit-options {
+    background-color: #E7F4FD;
+    margin-bottom: 25px;
+    padding: 15px;
+}
+.credit-fee{
+	padding-top: 5px;
+}
+.credit-fee p {
+    font-size: 15px;
+    font-weight: 700;
+}
+.credit-reward p {
+    font-size: 16px;
+    font-weight: 600;
+}
+/*************************
+Credit card end
+***********************/
+
+
+
+
+
+
+
+
+
+
+
+
+
